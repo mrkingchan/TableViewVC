@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8FA67D272092FFEB003F5F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D262092FFEB003F5F0D /* AppDelegate.m */; };
-		8FA67D2A2092FFEB003F5F0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D292092FFEB003F5F0D /* ViewController.m */; };
 		8FA67D2D2092FFEB003F5F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA67D2B2092FFEB003F5F0D /* Main.storyboard */; };
 		8FA67D2F2092FFEB003F5F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA67D2E2092FFEB003F5F0D /* Assets.xcassets */; };
 		8FA67D322092FFEB003F5F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA67D302092FFEB003F5F0D /* LaunchScreen.storyboard */; };
 		8FA67D352092FFEB003F5F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D342092FFEB003F5F0D /* main.m */; };
 		8FA67D3F2092FFEB003F5F0D /* TableViewVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D3E2092FFEB003F5F0D /* TableViewVCTests.m */; };
 		8FA67D4A2092FFEB003F5F0D /* TableViewVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D492092FFEB003F5F0D /* TableViewVCUITests.m */; };
+		8FA67D592093006A003F5F0D /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D582093006A003F5F0D /* BaseTableVC.m */; };
+		8FA67D5C20930520003F5F0D /* VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA67D5B20930520003F5F0D /* VC.m */; };
+		D01BD773B055E0CAD4661ED0 /* libPods-TableViewVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A760F56DD17FBFA97D8FBBE /* libPods-TableViewVC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A760F56DD17FBFA97D8FBBE /* libPods-TableViewVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA67D222092FFEB003F5F0D /* TableViewVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA67D252092FFEB003F5F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FA67D262092FFEB003F5F0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FA67D282092FFEB003F5F0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FA67D292092FFEB003F5F0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FA67D2C2092FFEB003F5F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FA67D2E2092FFEB003F5F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA67D312092FFEB003F5F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,12 @@
 		8FA67D452092FFEB003F5F0D /* TableViewVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA67D492092FFEB003F5F0D /* TableViewVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVCUITests.m; sourceTree = "<group>"; };
 		8FA67D4B2092FFEB003F5F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA67D572093006A003F5F0D /* BaseTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableVC.h; sourceTree = "<group>"; };
+		8FA67D582093006A003F5F0D /* BaseTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableVC.m; sourceTree = "<group>"; };
+		8FA67D5A20930520003F5F0D /* VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC.h; sourceTree = "<group>"; };
+		8FA67D5B20930520003F5F0D /* VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC.m; sourceTree = "<group>"; };
+		A11156A64E98E98B00158211 /* Pods-TableViewVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewVC/Pods-TableViewVC.release.xcconfig"; sourceTree = "<group>"; };
+		D7CAB72CF28AB98514E2EEF6 /* Pods-TableViewVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewVC/Pods-TableViewVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01BD773B055E0CAD4661ED0 /* libPods-TableViewVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				8FA67D3D2092FFEB003F5F0D /* TableViewVCTests */,
 				8FA67D482092FFEB003F5F0D /* TableViewVCUITests */,
 				8FA67D232092FFEB003F5F0D /* Products */,
+				906282D7445636ACD4C6A09B /* Pods */,
+				DCBF5B92D985775CE2F17024 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +113,10 @@
 			children = (
 				8FA67D252092FFEB003F5F0D /* AppDelegate.h */,
 				8FA67D262092FFEB003F5F0D /* AppDelegate.m */,
-				8FA67D282092FFEB003F5F0D /* ViewController.h */,
-				8FA67D292092FFEB003F5F0D /* ViewController.m */,
+				8FA67D572093006A003F5F0D /* BaseTableVC.h */,
+				8FA67D582093006A003F5F0D /* BaseTableVC.m */,
+				8FA67D5A20930520003F5F0D /* VC.h */,
+				8FA67D5B20930520003F5F0D /* VC.m */,
 				8FA67D2B2092FFEB003F5F0D /* Main.storyboard */,
 				8FA67D2E2092FFEB003F5F0D /* Assets.xcassets */,
 				8FA67D302092FFEB003F5F0D /* LaunchScreen.storyboard */,
@@ -132,6 +144,23 @@
 			path = TableViewVCUITests;
 			sourceTree = "<group>";
 		};
+		906282D7445636ACD4C6A09B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7CAB72CF28AB98514E2EEF6 /* Pods-TableViewVC.debug.xcconfig */,
+				A11156A64E98E98B00158211 /* Pods-TableViewVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCBF5B92D985775CE2F17024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A760F56DD17FBFA97D8FBBE /* libPods-TableViewVC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA67D4E2092FFEB003F5F0D /* Build configuration list for PBXNativeTarget "TableViewVC" */;
 			buildPhases = (
+				0225E3DB7BBB0172775E4EB0 /* [CP] Check Pods Manifest.lock */,
 				8FA67D1E2092FFEB003F5F0D /* Sources */,
 				8FA67D1F2092FFEB003F5F0D /* Frameworks */,
 				8FA67D202092FFEB003F5F0D /* Resources */,
+				B119DDC22681E1FAF4DE1C2A /* [CP] Embed Pods Frameworks */,
+				B9C2862D12165A887D2A6B1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +292,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0225E3DB7BBB0172775E4EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B119DDC22681E1FAF4DE1C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewVC/Pods-TableViewVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C2862D12165A887D2A6B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TableViewVC/Pods-TableViewVC-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewVC/Pods-TableViewVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FA67D1E2092FFEB003F5F0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA67D2A2092FFEB003F5F0D /* ViewController.m in Sources */,
+				8FA67D5C20930520003F5F0D /* VC.m in Sources */,
 				8FA67D352092FFEB003F5F0D /* main.m in Sources */,
 				8FA67D272092FFEB003F5F0D /* AppDelegate.m in Sources */,
+				8FA67D592093006A003F5F0D /* BaseTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +515,7 @@
 		};
 		8FA67D4F2092FFEB003F5F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CAB72CF28AB98514E2EEF6 /* Pods-TableViewVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +530,7 @@
 		};
 		8FA67D502092FFEB003F5F0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11156A64E98E98B00158211 /* Pods-TableViewVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
